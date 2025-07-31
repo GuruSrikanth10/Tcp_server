@@ -1,0 +1,10 @@
+For server 1
+go run server.go localhost:8080 localhost:8081
+
+
+for server 2
+go run server.go localhost:8081 localhost:8080
+
+
+for client
+go run client.go
